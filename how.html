@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>How It Works – Dot-Public 3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root { --dotblue: #0067a5; }
+    body { font-family: Arial, sans-serif; margin: 0; background: #fff; color: #111; }
+    header { background: var(--dotblue); color: #fff; text-align: center; padding: 2.2em 1em 1em 1em; font-weight: bold; font-size: 2.2em; letter-spacing: 0.01em; }
+    nav { background: #f6faff; text-align: center; font-size: 1.1em; font-weight: bold; }
+    nav a { color: var(--dotblue); text-decoration: none; margin: 0 1.1em; padding: 1em 0; display: inline-block; font-weight: bold; border-bottom: 3px solid transparent; transition: border-color 0.2s; }
+    nav a:hover, nav a.active { border-bottom: 3px solid var(--dotblue); color: #014f7a; }
+    .section { max-width: 700px; margin: 2.5em auto; padding: 0 1em; }
+    .section-title { color: var(--dotblue); font-size: 1.7em; font-weight: bold; margin-bottom: 1em; }
+    .section ol { margin-left: 1.4em; margin-bottom: 0.7em; }
+    .section li { margin-bottom: 1.1em; font-size: 1.09em;}
+    .section li strong { color: var(--dotblue); }
+    @media (max-width: 600px) {
+      header { font-size: 1.3em; padding-top: 1.2em;}
+      .section-title { font-size: 1.2em;}
+      .section { max-width: 99vw; }
+      nav a { margin: 0 0.5em; font-size: 0.98em;}
+    }
+  </style>
+</head>
+<body>
+  <header>A Civic Layer for the Internet</header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="vision.html">Vision</a>
+    <a class="active" href="how.html">How It Works</a>
+    <a href="get-involved.html">Get Involved</a>
+  </nav>
+  <div class="section">
+    <div class="section-title">The Core Ingredients of Dot-Public</div>
+    <div>
+      Dot-Public isn’t just a new domain name. It’s a new piece of civic infrastructure, built on five pillars:
+      <ol>
+        <li>
+          <strong>The .public Domain</strong><br>
+          A permissioned top-level domain where only verified civic actors can publish. It acts as the street sign for the digital public space.
+        </li>
+        <li>
+          <strong>A Civic Rubric</strong><br>
+          A rulebook defining who may participate, what behaviours are allowed, and how trust is earned and maintained.
+        </li>
+        <li>
+          <strong>Privacy-First Technology</strong><br>
+          Tools like enclaves, mixnets, and zero-knowledge proofs to ensure services operate without silent surveillance or hidden data trails.
+        </li>
+        <li>
+          <strong>Provenance and Permanence</strong><br>
+          Standards for digital signatures, metadata, and permanent records — so civic information remains verifiable and preserved.
+        </li>
+        <li>
+          <strong>Shared Civic Tools</strong><br>
+          Open-source services for search, maps, identity, and communication — free from commercial surveillance and vendor lock-in.
+        </li>
+      </ol>
+      Dot-Public aims to build an ecosystem that public institutions can use without compromising their civic mission.
+    </div>
+  </div>
+</body>
+</html>
